@@ -21,3 +21,46 @@ body{
     color: white;
     padding: 20px;
 }
+
+/* class selector */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e8f4f8;
+    border-radius: 8px;
+  }
+  
+/* grouping selector */
+  h2,
+  p {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+/* pseudo-classes */
+  a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+/* specific class selector for highlight */
+  .highlight {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  
+/* circular profile picture */
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
