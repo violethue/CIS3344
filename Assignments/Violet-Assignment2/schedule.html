@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Class Schedule</title>
+    <!--Internal CSS-->
+    <style>
+       /* Adds border lines to table */
+        table, th, td {
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+        }
+        /* Adds padding to table */
+        th, td {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        /* Alligns text from table header and table data to center */
+        th, td {
+            text-align: center;
+        }
+        /* Alligns p to center */
+        p{
+            text-align: center;
+        }
+        /* Adds color when hovering over the table data */
+        td:hover {
+        background-color: #f9f9f9;
+        }
+        /* Adds color when hovering over the table header */
+        th:hover {
+        background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weekly Class Schedule</h1>
+    <p>Class Schedule for Fall 2024</p>
+    <!--Table-->
+    <table style="width:100%">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Course Name</th>
+            <th>Instuctor</th>
+            <th>Room Number</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td colspan="4">No Classes</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>11:00 - 12:20</td>
+            <td>Client-Side</td>
+            <td>Mounika Ravi Hospet</td>
+            <td>Tuttleman 307AB</td>
+        </tr>
+        <tr>
+            <td>2:00 - 3:20</td>
+            <td>Database</td>
+            <td>Nancy Polychronopoulou</td>
+            <td>Wachman 407</td>
+        </tr>
+        <tr>
+            <td>3:30 - 4:50</td>
+            <td>Network Architectures</td>
+            <td>Claudia Pine-Simon</td>
+            <td>Tuttleman 401B</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>5:30 - 8:00</td>
+            <td>Project Management</td>
+            <td>Robert Spielberger</td>
+            <td>Tuttleman 403</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Thursday</td>
+            <td>11:00 - 12:20</td>
+            <td>Client-Side</td>
+            <td>Mounika Ravi Hospet</td>
+            <td>Tuttleman 307AB</td>
+        </tr>
+        <tr>
+            <td>2:00 - 3:20</td>
+            <td>Database</td>
+            <td>Nancy Polychronopoulou</td>
+            <td>Wachman 407</td>
+        </tr>
+        <tr>
+            <td>3:30 - 4:50</td>
+            <td>Network Architectures</td>
+            <td>Claudia Pine-Simon</td>
+            <td>Tuttleman 401B</td>
+        <tr>
+            <td rowspan="3">Friday</td>
+            <td>11:00 - 12:50</td>
+            <td>Networking Architectures Lab</td>
+            <td>Johnny Tran</td>
+            <td>SERC 204</td>
+        </tr>
+        <tr>
+            <td>1:00 - 2:50</td>
+            <td>Client-Side Lab</td>
+            <td>Liam James Barnes</td>
+            <td>Bio-Life 137</td>
+        </tr>
+        <tr>
+            <td>3:00 - 4:50</td>
+            <td>Database Lab</td>
+            <td>Sourav Das</td>
+            <td>Tuttleman 9</td>
+        </tr>
+    </table>
+    <!--Links "here" to lead to a link w/ more info + new window-->
+    <div class="content">
+        <span>Information about the courses can be found </span>
+        <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">here</a>
+    </div>
+</body>
+</html>
