@@ -1,0 +1,43 @@
+/* makes all paragraphs purple */
+p {
+    color: rgb(171, 84, 171);
+}
+/* uses id selector to change font size and weight */
+#header{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* makes circular image with border */
+img{
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 300px;
+}
+/* makes all h2 green */
+h2{
+    color:green;
+}
+/* class selector for yellow highlight */
+.emphasize{
+    font-style: italic;
+    background-color: yellow;
+}
+/* makes background light blue */
+body{
+    background-color: lightblue;
+} 
+/* adds padding to all lists */
+li{
+    padding: 10px;
+}
+/* for table styles */
+table, th, td{
+    margin: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* alternates table row colors*/
+tr:nth-child(even) {
+    background-color: #94cfcf;
+  }
