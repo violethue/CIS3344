@@ -1,7 +1,7 @@
 /* Basic styling */
 body {
   font-family: Arial, sans-serif;
-  /* added a margin */
+  /* added a margin to remove whitespace */
   margin: 0;
 }
 
@@ -25,6 +25,7 @@ header {
   float:left; /* moves everything to the left */
 }
 
+/* removes the whitespace at the top of the product boxes with margin */
 h2{
   margin-top: 0px;
 }
@@ -59,3 +60,4 @@ footer {
   clear:both;
 }
 /* Please use google to find out what this block of code is and why it is being used in this code */
+/* makes it so it will take up space like a table */
