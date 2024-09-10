@@ -1,0 +1,61 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  /* added a margin */
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#product-list {
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  margin: 15px;
+  padding: 5px; 
+  width: 30%;
+  text-align: center;
+  float:left; /* moves everything to the left */
+}
+
+h2{
+  margin-top: 0px;
+}
+
+/* Pseudo-classes for link behavior and order with errors */
+.product a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* makes it so it will change the color when the link has been visited */
+a:visited{
+  color:pink;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Clear floats to avoid parent collapse */
+/* inserts something after the content of selected elements */
+#product-list::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+/* Please use google to find out what this block of code is and why it is being used in this code */
