@@ -27,7 +27,7 @@ header {
 
 /* removes the whitespace at the top of the product boxes with margin */
 h2{
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 /* Pseudo-classes for link behavior and order with errors */
