@@ -1,3 +1,3 @@
 # CIS3344: Client-side scripting for the Web
-(Note: The rest moved to a private repo for the class)
+(Note: The rest moved to a private organization for the class)
 This repository is for assignments, labs, projects, and class activities for CIS3344.
